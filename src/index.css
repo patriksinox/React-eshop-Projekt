@@ -1,0 +1,514 @@
+body {
+  font-family: "IBM Plex Sans", sans-serif !important;
+  background-color: #f1f5f8 !important;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  font-size: 16px;
+}
+
+/* Navigácia */
+.obal-nav {
+  background: linear-gradient(to right, #35b2e2 0, #0d83dd 100%);
+}
+.collapse {
+  justify-content: center !important;
+}
+.navbar-toggler {
+  background-color: white !important;
+}
+.navbar {
+  font-size: 1.1rem;
+  color: white !important;
+}
+.navbar a {
+  color: white !important;
+  text-decoration: none;
+}
+.navbar-nav a:hover {
+  border-bottom: 2px solid white;
+}
+.nav-item {
+  display: flex;
+  align-items: center !important;
+  margin-right: 20px;
+}
+#nakupnyKosik {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-right: 100px !important;
+}
+#nakupnyKosik svg {
+  padding-left: 5px;
+  font-size: 1.6rem;
+}
+#nakupnyKosik sup {
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  padding: 12px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+/* Jumbotron */
+.jumbotron {
+  margin: 100px auto;
+}
+.jumbo-text {
+  margin-top: 25px;
+  font-size: 1.2rem;
+}
+.jumbotron ul {
+  list-style: none;
+  padding: 0;
+}
+.jumbotron ul li {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.jumbotron ul li svg {
+  margin-right: 10px;
+  color: darkblue;
+}
+
+/* O nás */
+.komfort-p {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-width: 450px;
+  font-size: 1.1rem;
+  letter-spacing: 1.6px;
+}
+/* Prečo My */
+.precomy {
+  margin: 100px auto !important;
+  background: linear-gradient(to right, #35b2e2 0, #0d83dd 100%);
+  padding-bottom: 50px;
+}
+.precomy {
+  color: white !important;
+}
+.precomy article {
+  margin-top: 40px;
+}
+.box-my {
+  padding: 20px;
+  background-color: #f1f5f8;
+}
+.box-my svg {
+  margin-bottom: 15px;
+  color: #0d83dd;
+  font-size: 1.8rem;
+}
+
+/* Spojenie */
+.spojenie {
+  padding-bottom: 150px;
+  font-size: 1.2rem;
+  color: black;
+}
+.spojenie-form input {
+  padding: 10px !important;
+  border-radius: 0;
+  max-width: 400px;
+}
+.spojenie-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spojenie-form button {
+  padding: 10px 20px !important;
+}
+/* MapaForm */
+iframe {
+  height: 100%;
+  width: 100%;
+}
+.form-check-input {
+  margin-top: 0 !important;
+  margin-left: 15px;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}
+textarea {
+  min-height: 140px !important;
+  border-radius: 0 !important;
+}
+#kontakt input {
+  border-radius: 0 !important;
+}
+/* Footer */
+footer {
+  color: white;
+  padding: 20px;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-evenly;
+  background: linear-gradient(to right, #35b2e2 0, #0d83dd 100%);
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  transition: 0.7s ease-in-out;
+}
+footer a:hover {
+  color: white;
+  font-size: 1.3rem;
+  border-bottom: 1px solid white;
+}
+
+article {
+  color: black !important;
+  font-size: 1rem;
+  letter-spacing: 1.6px;
+  max-width: 100vh;
+  margin: 0 auto;
+}
+article h2 {
+  color: black !important;
+}
+
+.marginfooter {
+  margin-bottom: 100px;
+}
+
+/* Produkty */
+.breadcrumb {
+  margin: 3rem 0 !important;
+}
+.breadcrumb-item {
+  font-size: 1.3rem;
+}
+.produkt-okno {
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 10px;
+  transition: 0.3s all ease-in-out;
+}
+.produkt-okno:hover {
+  transform: scale(1.05);
+}
+.produkt-okno a {
+  color: black !important;
+  text-decoration: none !important;
+}
+.popis {
+  font-size: 1.1rem;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+.vyrobca {
+  text-transform: capitalize;
+  color: #617d98;
+}
+.produkt-okno img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  height: 200px;
+  transition: 0.5s all ease-in-out;
+}
+
+.triedenie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.triedenie label {
+  width: 100%;
+}
+hr {
+  border: none;
+  border-top: 5px solid #0d83dd !important;
+  width: 100%;
+  background: linear-gradient(to right, #35b2e2 0, #0d83dd 100%);
+}
+/* Produkt okno */
+.produkt-fotka {
+  max-height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+.produkt {
+  text-transform: capitalize;
+  letter-spacing: 1.6px;
+}
+.farby-container {
+  display: flex;
+  align-items: center;
+}
+.produkt-farba {
+  margin: 2px;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: rgb(34, 34, 34);
+  border: none;
+  cursor: pointer;
+  opacity: 0.75;
+}
+.kusy {
+  display: block;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.kusy .cislo {
+  font-size: 3.5rem;
+  font-weight: 1000;
+  padding: 10px;
+}
+.vnutro-modal {
+  padding: 15px;
+}
+.modal-buttony {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+.modal-footer {
+  justify-content: center !important;
+}
+/* Filter */
+.filter {
+  margin: 0;
+  padding: 0;
+}
+.filter li {
+  list-style-type: none;
+  text-align: left;
+  text-transform: capitalize;
+  color: #617d98;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+}
+.filter button {
+  margin: 2px 5px 0px 0px;
+  text-align: left;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: rgb(34, 34, 34);
+  border: none;
+  cursor: pointer;
+  opacity: 0.75;
+}
+.button-aktiv {
+  width: 1.9rem !important;
+  height: 1.9rem !important;
+}
+.postovne {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.aktiv {
+  border-bottom: 2px solid #617d98;
+}
+
+/* Nakupny kosik CSS */
+.prazdny-kosik {
+  height: 75vh;
+}
+.prazdny-kosik-img {
+  display: block;
+  margin: 50px auto;
+  font-size: 10rem;
+  color: #617d98;
+}
+.kos {
+  padding: 50px;
+}
+.kos article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  max-width: initial;
+}
+.vysvetlivky {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.vysvetlivky li {
+  font-size: 1.1rem;
+  color: #0d83dd;
+}
+.nazov-kosik {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px !important;
+  height: 100px;
+}
+.nazov-kosik p {
+  display: block !important;
+}
+.fotka-kosik {
+  display: block;
+  height: 100%;
+  width: 200px;
+  margin-right: 10px;
+}
+.pocet-kosik {
+  display: block;
+  font-size: 2rem;
+  margin: 5px;
+}
+
+.pocet-kosik .cislo {
+  font-size: 2rem;
+  font-weight: 1000;
+  padding: 10px;
+}
+.vymazat-vec {
+  display: flex;
+  align-items: center;
+  background-color: crimson;
+  color: white;
+  border-radius: 10%;
+  padding: 5px;
+  font-size: 1.2rem;
+  border: 0;
+}
+.tlacitka-kosik {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.total-container {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+.total {
+  max-width: 500px;
+  border: 1px solid silver;
+  padding: 25px;
+  border-radius: 1%;
+}
+.total p {
+  color: #617d98;
+  font-size: 1.1rem;
+}
+/* buttony */
+.kusy button {
+  border: 0px;
+  background-color: #f1f5f8;
+}
+.pocet-kosik button {
+  border: 0px;
+  background-color: #f1f5f8;
+}
+.total button {
+  margin-top: 15px;
+}
+
+.moj-btn-modry {
+  padding: 20px;
+  font-size: 1.1rem;
+  background: linear-gradient(to right, #35b2e2 0, #0d83dd 100%);
+  color: white;
+  border: 0;
+  font-weight: 500;
+}
+.moj-btn-zeleny {
+  background: linear-gradient(75deg, #7cd550 0, #5ec142 100%);
+  padding: 20px;
+  font-size: 1.1rem;
+  color: white;
+  border: 0;
+  font-weight: 600;
+}
+
+.moj-btn-cerveny {
+  font-weight: 500;
+  padding: 20px;
+  font-size: 1.1rem;
+  background-color: crimson;
+  color: white;
+  border: 0;
+}
+
+button {
+  transition: 0.3s all ease-in-out;
+}
+button:hover {
+  transform: scale(1.05);
+}
+
+.dokoncenie {
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .produkt-stretch {
+    display: flex;
+    align-items: stretch !important;
+  }
+  .kos {
+    padding: 0;
+  }
+  .vysvetlivky {
+    display: none;
+  }
+  .fotka-kosik {
+    max-width: 100px;
+  }
+  .kos article {
+    font-size: 0.75rem;
+    letter-spacing: 0;
+  }
+  .nazov-kosik {
+    justify-content: left;
+    min-width: fit-content;
+    width: auto !important;
+    padding-right: 10px;
+  }
+  .nazov-kosik h5 {
+    max-width: 100px;
+  }
+  .nazov-kosik h5 {
+    font-size: 0.75rem !important;
+  }
+  .pocet-kosik,
+  .pocet-kosik .cislo {
+    font-size: 0.85rem;
+  }
+  .produkt-celkovo {
+    display: none;
+  }
+
+  .tlacitka-kosik button {
+    padding: 10px !important;
+    font-size: 1rem;
+  }
+  .tlacitka-kosik .moj-btn-cerveny {
+    margin-left: 5px !important;
+  }
+  .modal-buttony button {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 0px 5px;
+  }
+  .breadcrumb {
+    margin-top: 1rem !important;
+    margin-bottom: 0rem !important;
+  }
+  footer {
+    margin-top: 100px !important;
+  }
+}

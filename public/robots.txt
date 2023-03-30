@@ -1,0 +1,4 @@
+Sitemap: https://patrik-eshop.netlify.app/sitemap.xml
+User-agent: *
+Disallow:
+Allow: *
