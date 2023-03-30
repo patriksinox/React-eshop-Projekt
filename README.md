@@ -8,3 +8,8 @@
   <p><strong>React / React Redux / React Router / Vite  / Bootstrap / Reactstrap</strong>  projekt. 
   V projekte som používal viaceré technológie, kód aj grafická predloha je moja. Všetko som tvoril od 0 aby som sa niečo naučil a reálne riešil problémy. Hlavné čo som zistil pri tomto projekte je, že som si mal navrhnúť Stránky / komponenty ale bral som to tak že to hlavné je vôbec začať 😊.
         </p>
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2c03c097-06f3-4511-8ad5-0dc3c5343ab8/deploy-status)](https://app.netlify.com/sites/patrik-eshop/deploys)
+
+https://patrik-eshop.netlify.app
